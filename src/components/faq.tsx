@@ -85,43 +85,28 @@ const FaqsCard = (props: FaqsCardProps) => {
 export default function FAQ() {
   const faqsList = [
     {
-      q: "Chương trình có yêu cầu về độ tuổi và kinh nghiệm của ứng viên không ạ?",
-      a: (
-        <div>
-          <p>
-            Dự án tiếp nhận ứng viên dưới 35 tuổi, lý lịch rõ ràng, không có
-            tiền án tiền sự.
-          </p>
-          <p>
-            Quá trình xét tuyển bao gồm thẩm định hồ sơ, kiểm tra đầu vào và
-            phỏng vấn chuyên sâu, không yêu cầu số năm kinh nghiệm cụ thể.
-          </p>
-        </div>
-      ),
+      q: "Em có cần biết tiếng Hàn trước khi đăng ký tham gia chương trình không? Nếu chưa biết thì có được hỗ trợ học không?",
+      a: "Chương trình không yêu cầu học viên phải thành thạo tiếng Hàn. Tuy nhiên để tăng khả năng cạnh tranh, học viên nên có một kỹ năng ngoại ngữ để dễ dàng tiếp cận doanh nghiệp.",
     },
     {
-      q: "Các khoá đào tạo có mở thêm không ạ?",
-      a: "Chương trình chỉ được tổ chức một lần trong năm 2025 thôi, vậy nên hãy quyết định nhanh chóng bạn nhé.",
+      q: "Chương trình có kiểm tra, đánh giá hay thi cuối kỳ không? Kết quả học tập được đánh giá dựa trên tiêu chí nào?",
+      a: "Học viên sẽ có thực hành project lớn ở cuối khoá học. Tiêu chí đánh giá sẽ được thông tin chi tiết khi tham gia chính thức vào khoá học.",
     },
     {
-      q: "Cuối kỳ thực tập có đánh giá đầu ra không ạ? Tiêu chí đánh giá ra sao?",
-      a: "Thực tập sinh sẽ được đánh giá  trong suốt quá trị thực tập trên các dự án thực tế, đồng thời sẽ được kết nối tham gia phỏng vấn trực tiếp với các doanh nghiệp có nhu cầu tuyển dụng nhân lực. Nếu ứng viên phù hợp với doanh nghiệp sẽ được nhận lời mời làm việc chính thức.",
+      q: "Có yêu cầu nào về điểm số, kỹ năng lập trình hay phỏng vấn để được tham gia chương trình không?",
+      a: "Ứng viên tham gia chương trình cần có nền tảng kiến thức lập trình cơ bản. Chúng tôi sẽ đánh giá năng lực dựa vào các dự án ứng viên đã làm, sau đó sẽ có bài coding test và sau cùng là phỏng vấn chuyên sâu.",
     },
     {
-      q: "Dự án thực tế trong khoá đào tạo có phải là do doanh nghiệp tuyển dụng ra đề?",
-      a: "Đúng vậy. Doanh Nghiệp là người ra đề và học viên dựa theo yêu cầu để thực hiện. Sau đó, doanh nghiệp sẽ đánh giá dựa trên bài nhóm và năng lực từng cá nhân.",
+      q: "Sau khi hoàn thành chương trình, em có được giới thiệu cơ hội thực tập hoặc việc làm tại Hàn Quốc không?",
+      a: "Chúng tôi sẽ hỗ trợ cung cấp các thông tin tuyển dụng (nếu có) cho học viên trong khuôn khổ chương trình K-Tech College 2025. Tuy nhiên điều này không đồng nghĩa với việc cam kết việc làm.",
     },
     {
-      q: "Khi phỏng vấn với doanh nghiệp cần dùng Tiếng Hàn và Tiếng Anh phải không ạ?",
-      a: "Điều này còn dựa vào quy trình tuyển dụng của công ty bạn ứng tuyển, tuy nhiên sẽ có thông dịch viên Hàn-Việt hỗ trợ.",
+      q: "Toàn bộ chương trình có được tài trợ không, hay sinh viên phải đóng một phần chi phí?",
+      a: "Chương trình là hoàn toàn miễn phí. Ngoài nội dung đào tạo ra, chúng tôi còn hỗ trợ cơm trưa cho các ứng viên khi tham gia khóa học fulltime.",
     },
     {
-      q: "Khi làm việc tại Hàn có yêu cầu Tiếng Anh không?",
-      a: "Không yêu cầu, tuy nhiên có tiếng Anh cơ bản sẽ giúp bạn dễ dàng trao đổi công việc và thực hiện các sinh hoạt khác tại Hàn Quốc.",
-    },
-    {
-      q: "Ứng tuyển K-Tech College 2025 có mất phí không?",
-      a: "Ứng viên ứng tuyển K-Tech College 2025 hoàn toàn miễn phí. Chương trình cam kết không phát sinh thêm bất cứ chi phí nào khác trong suốt quá trình ứng tuyển.",
+      q: "Chương trình học có bao gồm thực hành nhóm hoặc làm project không? Nếu có thì làm theo nhóm như thế nào?",
+      a: "Trong suốt quá trình học, học viên sẽ được thực hành đa dạng các bài tập khác nhau. Và sẽ có một project lớn được thực hiện theo team và cũng là project cuối khóa của chương trình.",
     },
   ];
 

@@ -15,14 +15,9 @@ const steps = [
       "Tham gia phỏng vấn trực tiếp (offline) hoặc trực tuyến (online)",
   },
   {
-    title: "Kết nối doanh nghiệp",
+    title: "Đào tạo",
     description:
-      "Kết nối thực tập sinh với doanh nghiệp phù hợp (tối đa 1 tháng)",
-  },
-  {
-    title: "Thực tập",
-    description:
-      "Tham gia thực tập với các dự án của doanh nghiệp Hàn Quốc. Chương trình thực tập sẽ được làm từ xa tại Việt Nam trong 3 - 6 tháng",
+      "Tham gia đào lớp đào tạo tiếng Hàn cơ bản, tiếng Hàn giao tiếp & các kỹ năng khác trong vòng 4 tuần (2 buổi tối / tuần)",
   },
 ];
 

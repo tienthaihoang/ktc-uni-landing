@@ -30,7 +30,7 @@ const text = [
 
 export default function AboutUs() {
   return (
-    <section id="gioi-thieu" className="bg-[#F2FAFF] py-[60px] md:py-[120px]">
+    <section id="gioi-thieu" className="py-[60px] md:py-[120px]">
       <div className="container">
         <div className="space-y-12">
           {text.map((item, idx) => (

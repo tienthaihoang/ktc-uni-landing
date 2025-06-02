@@ -24,18 +24,19 @@ export default function Hero() {
             <h1 className="mx-auto text-xl sm:text-4xl font-bold lg:text-5xl max-w-sm sm:max-w-md md:max-w-none uppercase">
               <span className="flex items-center justify-center gap-2 flex-wrap">
                 <span className="w-full lg:w-auto">
-                  Tuyển thực tập sinh làm việc cho
+                  Đào tạo và kết nối việc làm
                 </span>
               </span>
               <span className="flex items-center gap-2 justify-center flex-wrap bg-clip-text sm:mt-5">
                 <span className="w-full lg:w-auto">
-                  doanh nghiệp tại Hàn Quốc
+                  cho sinh viên lập trình
                 </span>
               </span>
             </h1>
             <p className="max-w-2xl px-4 mx-auto text-xs md:text-balance lg:text-lg">
-              Tuyển dụng và đào tạo những tài năng CNTT chất lượng cao của Việt
-              Nam, đến làm việc tại các công ty công nghệ tại Hàn Quốc
+              Chương trình đào tạo được tài bởi chính phủ Hàn Quốc nhằm phát
+              triển và kết nối nguồn nhân sự lập trình chất lượng cao với các
+              startup Hàn Quốc
             </p>
 
             <div className="flex px-4 flex-col mt-[28px] md:flex-row items-center justify-center text-sm font-medium gap-x-3 gap-y-4 md:!mt-12">
@@ -47,7 +48,7 @@ export default function Hero() {
             </div>
             <div className="text-sx font-bold bg-gradient-to-b from-[#ED174C] to-[#006DB8] bg-clip-text text-transparent">
               <p>MIỄN PHÍ THAM GIA</p>
-              Hạn cuối ứng tuyển 01/08/2025
+              Hạn cuối ứng tuyển 15/06/2025
             </div>
             <div className="relative w-full h-[120px] block mt-8 md:hidden">
               <Image

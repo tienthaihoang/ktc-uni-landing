@@ -1,48 +1,42 @@
-import { site } from "@/config/site";
 import Image from "next/image";
-import Link from "next/link";
 import AnimationLayout from "./shared/animation-layout";
-import { Button } from "./ui/button";
 import BookOpenIcon from "/public/BookOpenIcon.svg";
-import HeadCircuitIcon from "/public/HeadCircuitIcon.svg";
-import ToolboxIcon from "/public/ToolboxIcon.svg";
-import UsersThreeIcon from "/public/UsersThreeIcon.svg";
+import BuildingsIcon from "/public/BuildingsIcon.svg";
+import KoreanIcon from "/public/KoreanIcon.svg";
+import UsersTwoIcon from "/public/UsersTwoIcon.svg";
 
 const text = [
   {
+    icon: UsersTwoIcon,
+    title: "Đối tượng tham gia",
+    desc: "Sinh viên lập trình năm cuối hoặc mới tôt nghiệp tại các trường Đại học",
+  },
+  {
     icon: BookOpenIcon,
-    title: "Trình độ học vấn",
-    desc: "Tốt nghiệp đại học chuyên ngành CNTT hoặc chuyên ngành liên quan",
+    title: "Chương trình đào tạo",
+    desc: "Tập trung vào phát triển phần mềm thực tiễn thông qua các dự án ứng dụng CN",
   },
   {
-    icon: ToolboxIcon,
-    title: "Kinh nghiệm làm việc",
-    desc: "Có từ 1 năm kinh nghiệm làm việc trong lĩnh vực lập trình",
+    icon: KoreanIcon,
+    title: "Đào tạo văn hóa",
+    desc: "Học tiếng Hàn, tác phong chuyên nghiệp và văn hóa doanh nghiệp Hàn Quốc",
   },
   {
-    icon: HeadCircuitIcon,
-    title: "Kỹ năng chuyên môn",
-    desc: "Các kỹ năng chuyên môn Front-End, Back-End hoặc Data Science",
-  },
-  {
-    icon: UsersThreeIcon,
-    title: "Yêu cầu khác",
-    desc: "Ứng viên từ 23–35 tuổi, có kỹ năng tiếng Anh hoặc tiếng Hàn là một lợi thế",
+    icon: BuildingsIcon,
+    title: "Kết nối doanh nghiệp",
+    desc: "Cơ hội thực tập và làm việc tại các startup Hàn Quốc",
   },
 ];
 
 export default function Participant() {
   return (
-    <section
-      id="doi-tuong-tham-gia"
-      className="bg-[#F5FAFF] py-[60px] md:py-[120px]"
-    >
+    <section className="bg-[#F5FAFF] py-[60px] md:py-[120px]">
       <div className="container">
-        <div className="mx-auto md:text-center text-left">
+        {/* <div className="mx-auto md:text-center text-left">
           <h2 className="text-xl text-center font-bold sm:text-5xl">
             Đối tượng tham gia
           </h2>
-        </div>
+        </div> */}
         <div className="mt-8 md:mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {text.map((item, idx) => (
             <AnimationLayout
@@ -69,13 +63,13 @@ export default function Participant() {
             </AnimationLayout>
           ))}
         </div>
-        <div className="mt-10 md:mt-[60px] flex flex-col md:flex-row items-center justify-center text-sm font-medium gap-x-3 gap-y-4">
+        {/* <div className="mt-10 md:mt-[60px] flex flex-col md:flex-row items-center justify-center text-sm font-medium gap-x-3 gap-y-4">
           <Button size="lg" className="w-full md:w-auto" asChild>
             <Link href={site.registrationUrl} target="_blank">
               Ứng tuyển ngay
             </Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

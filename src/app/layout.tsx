@@ -14,11 +14,7 @@ import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { extractRouterConfig } from "uploadthing/server";
 
 import { ourFileRouter } from "@/app/api/uploadthing/core";
-import Analytics from "@/components/analytics";
-import FacebookPixel from "@/components/facebookPixel";
 import MessengerChat from "@/components/messenger";
-import { GA_MEASUREMENT_ID } from "@/lib/gtag";
-import Script from "next/script";
 import { Suspense } from "react";
 
 const fontSans = FontSans({
@@ -91,7 +87,7 @@ export default function RootLayout({
       <html lang="en" suppressHydrationWarning className="scroll-smooth">
         <head>
           {/* Google Analytics */}
-          <Script
+          {/* <Script
             strategy="afterInteractive"
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           />
@@ -108,14 +104,13 @@ export default function RootLayout({
               });
             `,
             }}
-          />
+          /> */}
         </head>
         <body className={cn("antialiased", fontSans.className)}>
-          <Suspense fallback={null}>
+          {/* <Suspense fallback={null}>
             <Analytics />
-          </Suspense>
-          <FacebookPixel />
-          {/* <KtcPopup /> */}
+          </Suspense> */}
+          {/* <FacebookPixel /> */}
           <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />
           <Navbar />
           <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
