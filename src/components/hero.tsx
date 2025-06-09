@@ -23,9 +23,7 @@ export default function Hero() {
             </div>
             <h1 className="mx-auto text-xl sm:text-4xl font-bold lg:text-5xl max-w-sm sm:max-w-md md:max-w-none uppercase">
               <span className="flex items-center justify-center gap-2 flex-wrap">
-                <span className="w-full lg:w-auto">
-                  Đào tạo và kết nối việc làm
-                </span>
+                <span className="w-full lg:w-auto">Học bổng đào tạo</span>
               </span>
               <span className="flex items-center gap-2 justify-center flex-wrap bg-clip-text sm:mt-5">
                 <span className="w-full lg:w-auto">
@@ -35,8 +33,8 @@ export default function Hero() {
             </h1>
             <p className="max-w-2xl px-4 mx-auto text-xs md:text-balance lg:text-lg">
               Chương trình đào tạo được tài bởi chính phủ Hàn Quốc nhằm phát
-              triển và kết nối nguồn nhân sự lập trình chất lượng cao với các
-              startup Hàn Quốc
+              triển và kết nối nguồn nhân sự lập trình chất lượng cao tại Việt
+              Nam
             </p>
 
             <div className="flex px-4 flex-col mt-[28px] md:flex-row items-center justify-center text-sm font-medium gap-x-3 gap-y-4 md:!mt-12">

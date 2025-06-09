@@ -1,7 +1,6 @@
 import Image from "next/image";
 import AnimationLayout from "./shared/animation-layout";
 import BookOpenIcon from "/public/BookOpenIcon.svg";
-import BuildingsIcon from "/public/BuildingsIcon.svg";
 import KoreanIcon from "/public/KoreanIcon.svg";
 import UsersTwoIcon from "/public/UsersTwoIcon.svg";
 
@@ -21,11 +20,11 @@ const text = [
     title: "Đào tạo văn hóa",
     desc: "Học tiếng Hàn, tác phong chuyên nghiệp và văn hóa doanh nghiệp Hàn Quốc",
   },
-  {
-    icon: BuildingsIcon,
-    title: "Kết nối doanh nghiệp",
-    desc: "Cơ hội thực tập và làm việc tại các startup Hàn Quốc",
-  },
+  // {
+  //   icon: BuildingsIcon,
+  //   title: "Kết nối doanh nghiệp",
+  //   desc: "Cơ hội thực tập và làm việc tại các startup Hàn Quốc",
+  // },
 ];
 
 export default function Participant() {
@@ -37,7 +36,7 @@ export default function Participant() {
             Đối tượng tham gia
           </h2>
         </div> */}
-        <div className="mt-8 md:mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-8 md:mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {text.map((item, idx) => (
             <AnimationLayout
               className="h-full duration-1000 delay-300"

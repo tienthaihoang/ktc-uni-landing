@@ -17,11 +17,11 @@ const text = [
           Hàn Quốc và tạo điều kiện để bạn tìm được công việc mong muốn tại Hàn
           Quốc.
         </p>
-        <p>
+        {/* <p>
           K-Tech College 2025 đóng vai trò là cầu nối việc làm tại Hàn Quốc cho
           các lập trình viên chất lượng cao ở Việt Nam <b>hoàn toàn miễn phí</b>
           , với nguồn tài trợ 100% từ Chính phủ Hàn Quốc.
-        </p>
+        </p> */}
       </div>
     ),
     img: about,
