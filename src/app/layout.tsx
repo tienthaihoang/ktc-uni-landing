@@ -51,12 +51,12 @@ export const metadata: Metadata = {
     title:
       "Dự Án Đào Tạo Miễn Phí Và Giới Thiệu Việc Làm IT Tại Hàn Quốc | K-Tech College",
     description:
-      "K-Tech College 2025 là chương trình thực tập sinh đặc biệt, cung cấp cho các lập trình viên các kỹ năng cần thiết, hiểu rõ về văn hóa làm việc tại Hàn Quốc và tạo điều kiện để bạn tìm được công việc mong muốn tại Hàn Quốc.",
-    url: "https://ktc.likelion.edu.vn",
+      "K-Tech College 2025 for student là chương trình đào tạo nâng cao năng lực lập trình dành cho sinh viên Việt Nam. Được tài trợ 100% từ chính phủ Hàn Quốc.",
+    url: "https://ktcstudent.likelion.edu.vn",
     siteName: "K-Tech College",
     images: [
       {
-        url: "https://ktc.likelion.edu.vn/opengraph-image-v2.jpg",
+        url: "https://ktcstudent.likelion.edu.vn/opengraph-image.jpg",
         width: 1200,
         height: 630,
         alt: "K-Tech College 2025",
