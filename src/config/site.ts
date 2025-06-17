@@ -6,7 +6,8 @@ export const site = {
     { title: "Chương trình đào tạo", path: "#chuong-trinh-dao-tao" },
     { title: "FAQs", path: "#faqs" },
   ],
-  registrationUrl: "/ung-tuyen",
+  registrationUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLScqakgmcQoYSOL-s04ECr1KahxiYIeqSiZ7Kwo5x-Xr8tLxgA/viewform",
   informationUrl:
     "https://drive.google.com/file/d/1eO5PFuWJca82jIObvuiJHIjahTkDXoy-/view?usp=drive_link",
 };
