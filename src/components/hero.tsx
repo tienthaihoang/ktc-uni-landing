@@ -46,7 +46,7 @@ export default function Hero() {
             </div>
             <div className="text-sx font-bold bg-gradient-to-b from-[#ED174C] to-[#006DB8] bg-clip-text text-transparent">
               <p>MIỄN PHÍ THAM GIA</p>
-              Hạn cuối ứng tuyển 15/06/2025
+              Hạn cuối ứng tuyển 25/06/2025
             </div>
             <div className="relative w-full h-[120px] block mt-8 md:hidden">
               <Image
